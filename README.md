@@ -23,7 +23,7 @@ GetConfig(scope, keys, version) # Gets the config of the specified keys of the r
 GetConfig(scope, version)       # Gets all the config keys of the requested version
 
 
-Subscribe(scope, version)            # Fires an event if the config changed
-Subscribe(scope, key, version)       # Fires an event if the config changed
-Subscribe(scope, keys, version)      # Fires an event if the config changed
+Subscribe(scope, version)            # Recieve an event if the version config changed
+Subscribe(scope, key, version)       # Recieve an event if the version config changed for a given key
+Subscribe(scope, keys, version)      # Recieve an event if the version config changed for a given keys
 ```
